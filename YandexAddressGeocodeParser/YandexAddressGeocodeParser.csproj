@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="EPPlus" Version="8.6.1" />
+		<PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.10" />
+		<PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="10.0.10" />
+		<PackageReference Include="Yandex.Geocoder.v2" Version="1.0.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="Form1.cs">
+	    <SubType>Form</SubType>
+	  </Compile>
+	</ItemGroup>
+</Project>
